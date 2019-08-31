@@ -24,9 +24,9 @@
 
 INSTAGRAM_URL = 'https://www.instagram.com' <br/>
 BASE_URL = 'https://www.instagram.com/accounts/login/' <br/>
-LOGIN_URL = 'https://www.instagram.com/accounts/login/ajax/'
-USER_NAME = 'YOUR_USER_NAME_HERE'
-PASSWORD = 'YOUR_PASSWORD_HERE'
-USER_AGENT = 'Mozilla/5.0 (Windows NT 5.1; rv:41.0) Gecko/20100101 Firefox/41.0'
-USER_PROFILE_URL = 'https://www.instagram.com/@USERNAME/'
+LOGIN_URL = 'https://www.instagram.com/accounts/login/ajax/' <br/>
+USER_NAME = 'YOUR_USER_NAME_HERE' <br/>
+PASSWORD = 'YOUR_PASSWORD_HERE' <br/>
+USER_AGENT = 'Mozilla/5.0 (Windows NT 5.1; rv:41.0) Gecko/20100101 Firefox/41.0' <br/>
+USER_PROFILE_URL = 'https://www.instagram.com/@USERNAME/' <br/>
 
