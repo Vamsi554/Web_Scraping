@@ -16,11 +16,11 @@
 
 # Parameter Values
 
-INSTAGRAM_URL = 'https://www.instagram.com' <br/>
-BASE_URL = 'https://www.instagram.com/accounts/login/' <br/>
-LOGIN_URL = 'https://www.instagram.com/accounts/login/ajax/' <br/>
-USER_NAME = 'YOUR_USER_NAME_HERE' <br/>
-PASSWORD = 'YOUR_PASSWORD_HERE' <br/>
+INSTAGRAM_URL = <b>'https://www.instagram.com'</b> <br/>
+BASE_URL = <b>'https://www.instagram.com/accounts/login/'</b> <br/>
+LOGIN_URL = <b>'https://www.instagram.com/accounts/login/ajax/'</b> <br/>
+USER_NAME = <b>'YOUR_USER_NAME_HERE'</b> <br/>
+PASSWORD = <b>'YOUR_PASSWORD_HERE'</b> <br/>
 USER_AGENT = 'Mozilla/5.0 (Windows NT 5.1; rv:41.0) Gecko/20100101 Firefox/41.0' <br/>
 USER_PROFILE_URL = <b>'https://www.instagram.com/@USERNAME/'</b> <br/>
 
