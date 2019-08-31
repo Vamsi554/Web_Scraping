@@ -22,8 +22,8 @@
 
 # Global Constants
 
-INSTAGRAM_URL = 'https://www.instagram.com' \n
-BASE_URL = 'https://www.instagram.com/accounts/login/'
+INSTAGRAM_URL = 'https://www.instagram.com' <br/>
+BASE_URL = 'https://www.instagram.com/accounts/login/' <br/>
 LOGIN_URL = 'https://www.instagram.com/accounts/login/ajax/'
 USER_NAME = 'YOUR_USER_NAME_HERE'
 PASSWORD = 'YOUR_PASSWORD_HERE'
