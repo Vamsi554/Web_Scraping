@@ -29,4 +29,31 @@ USER_PROFILE_URL = <b>'https://www.instagram.com/@USERNAME/'</b> <br/>
 1) We can use python as a programming language medium and beautiful soup for parsing the data from the instagram web interface.
 2) Initially we make a GET request to instagram user account with the following parameters and fetch the required CSRF token needed for authentication purpose.
 3) We will be using the above parameter values as part of request headers and then create a session object which is eventually used in getting the HTML data for the web page.
+4) Once we retrieve the CSRF Token, we need to authenticate to instagram and proceed with extracting the data from a user's profile with a given user handle <b>@username</b>.
+5) Instagram uses the feature of <b>Infinite Scrolling</b> where in initially only first 12 images are loaded specific to user and as we scroll down, the browser makes asynchronous requests to the server and the images will be loaded and displayed accordingly.
+6) Instagram uses the concept of <b>Query Hash</b> to fetch user related data. We need to get this query hash for the user programatically and make a GET request to the server to get all the posts related to a specific user.
+7) Once all the information is received, we can parse individual content such as name, likes, comments, etc.,
+8) Below is the structure used for the Users and Posts entity
 
+# USER Entity
+
+  -> User Name
+  -> Profile URL
+  -> User Handle (<b>@username</b>)
+  -> Profile Image
+  -> Followers Count
+  -> Following Count
+  -> Posts Count
+  -> Videos Count
+  -> Posts
+  
+# POST Entity
+
+  -> Identifier
+  -> Upload Timestamp
+  -> Image URL
+  -> Comments Count
+  -> Likes Count
+  -> Location
+  -> Caption
+  -> Heading By User
