@@ -37,23 +37,27 @@ USER_PROFILE_URL = <b>'https://www.instagram.com/@USERNAME/'</b> <br/>
 
 # USER Entity
 
-  -> User Name
-  -> Profile URL
-  -> User Handle (<b>@username</b>)
-  -> Profile Image
-  -> Followers Count
-  -> Following Count
-  -> Posts Count
-  -> Videos Count
-  -> Posts
+Below are the values associated with <b>User</b> Entity <br>
+
+  -> User Name <br>
+  -> Profile URL <br>
+  -> User Handle (<b>@username</b>) <br>
+  -> Profile Image <br>
+  -> Followers Count <br>
+  -> Following Count <br>
+  -> Posts Count <br>
+  -> Videos Count <br>
+  -> Posts <br>
   
 # POST Entity
 
-  -> Identifier
-  -> Upload Timestamp
-  -> Image URL
-  -> Comments Count
-  -> Likes Count
-  -> Location
-  -> Caption
-  -> Heading By User
+Below are the values associated with <b>Post</b> Entity <br>
+
+  -> Identifier <br>
+  -> Upload Timestamp <br>
+  -> Image URL <br>
+  -> Comments Count <br>
+  -> Likes Count <br>
+  -> Location <br>
+  -> Caption <br>
+  -> Heading By User <br>
